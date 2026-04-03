@@ -1,0 +1,9 @@
+{"timestamp": "2023-10-27T10:00:00Z", "event_type": "PACKAGE_STATUS_CHANGE", "payload": {"package_id": "pkg-1", "status": "PICKED_UP", "driver_id": "drv-1"}}
+
+{"timestamp": "2023-10-27T10:05:00Z", "event_type": "DRIVER_LOCATION_UPDATE", "payload": {"driver_id": "drv-1", "location": {"lat": 12.9, "lon": 77.5}, "zone_id": "zone-1"}}
+
+{"timestamp": "2023-10-27T10:10:00Z", "event_type": "PACKAGE_STATUS_CHANGE", "payload": {"package_id": "pkg-1", "status": "DELIVERED", "driver_id": "drv-1"}}
+
+{"timestamp": "2023-10-27T10:15:00Z", "event_type": "BILLING_EVENT", "payload": {"invoice_id": "inv-1", "package_id": "pkg-1", "customer_id": "cust-1", "amount": 100}}
+
+INVALID_JSON_LINE
