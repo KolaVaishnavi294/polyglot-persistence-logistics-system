@@ -151,6 +151,7 @@ MATCH (d:Driver)-[:LOCATED_IN]->(z:Zone) RETURN d,z
 The API returns a unified, sorted timeline of events from multiple data sources.
 
 ### ⚠️ Notes
+- Sample events are provided in `events.sample.log`.
 - System uses retry logic to handle delayed database startup
 - Ensures eventual consistency across all databases
 - All services run inside Docker containers
